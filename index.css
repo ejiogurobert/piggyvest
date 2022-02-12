@@ -21,3 +21,13 @@
 .switch {
     margin-top: 12rem;
 }
+.section-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.acc-name {
+    padding: 2rem;
+}
+#dashboard-acc {
+    color: black;
+}
