@@ -7,7 +7,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 0fr 7fr;
-    grid-gap: 2rem;
+    grid-gap: .5rem;
 }
 .header {
     background-color: #062863;
@@ -24,10 +24,19 @@
 .section-one {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100vw;
 }
 .acc-name {
     padding: 2rem;
 }
-#dashboard-acc {
-    color: black;
+.dashboard-acc img {
+    /* color: black; */
+    height: 45px;
+    width: 45px;
+    padding: 2rem;
+}
+.dashboard-name {
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-family: sans-serif;
 }
